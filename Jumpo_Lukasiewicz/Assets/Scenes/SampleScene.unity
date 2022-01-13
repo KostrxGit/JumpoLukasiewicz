@@ -332,6 +332,7 @@ GameObject:
   - component: {fileID: 961649579}
   - component: {fileID: 961649585}
   - component: {fileID: 961649584}
+  - component: {fileID: 961649586}
   m_Layer: 0
   m_Name: prop
   m_TagString: Untagged
@@ -501,9 +502,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.16769591}
+  m_Offset: {x: 0, y: 0.16593006}
   serializedVersion: 2
-  m_Radius: 0.042303845
+  m_Radius: 0.04406973
 --- !u!50 &961649584
 Rigidbody2D:
   serializedVersion: 4
@@ -546,3 +547,19 @@ MonoBehaviour:
   normalMat: {fileID: 6200000, guid: 4bac8cecc43de054ba03a4e784d3a776, type: 2}
   canJump: 1
   jumpValue: 0
+--- !u!58 &961649586
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961649576}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.033110186}
+  serializedVersion: 2
+  m_Radius: 0.08947904

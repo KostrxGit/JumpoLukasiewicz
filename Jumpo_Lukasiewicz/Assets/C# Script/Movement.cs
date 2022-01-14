@@ -63,6 +63,15 @@ public class Movement : MonoBehaviour
         }
 
 
+        if (isGrounded == true)
+        {
+            canJump = true;
+        }
+        else if(isGrounded == false)
+        {
+            canJump = false; 
+        }
+
         if (Input.GetKeyUp("space"))
         {
             if (isGrounded)
